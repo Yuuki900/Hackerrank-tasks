@@ -1,0 +1,46 @@
+'''a = 5
+b = -10
+c = 15
+
+result_1 = a < b   # False
+result_2 = a == a  # True
+result_3 = a != b  # True
+result_4 = b >= c  # False
+x = 5
+x = complex(x)
+print (x)
+txt = "Hello World"
+x = txt[2:5]
+print(x)'''
+#Get three large numbers from input and check that they are given in ascending order.
+# The subsequent number must be greater than the previous one.
+#The input format:
+#Three lines with three numbers.
+#The output format:
+#True or False
+'''Sample Input 1:
+
+7790765547678990
+7790765557679990
+7790765557778900
+Sample Output 1:
+
+True ................................................................................'''
+'''x = int(input())
+y = int(input())
+z = int(input())
+a = [x<y<z]
+print(bool(a))'''
+
+'''Write a program that reads an integer value from input and checks if it is less than 10 or greater than 250.
+Sample Input 1:
+
+0
+Sample Output 1:
+
+True'''
+# don't modify this code
+# a stores an input value
+a = int(input().strip())
+b = (a<10) or (a>250)
+print ((b))
