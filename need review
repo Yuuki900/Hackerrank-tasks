@@ -1,0 +1,26 @@
+'''Write a program that reads an integer value from the input and checks if it is positive.
+
+Hints:
+
+0 is not a positive number.A comparison already returns a boolean, so if you need the result of the comparison,
+you can print it, like this print(5 > 9) # False
+
+Sample Input 1:
+
+8
+Sample Output 1:
+
+True'''
+# Please don't modify this code0
+1.
+# `a` stores an input value
+#a = int(input().strip())
+#print(a==8)
+# put your code here
+2.
+a = int(input().strip())
+positive = (a<9)
+print(a!=positive)
+
+odp:
+Failed test #2 of 8. Wrong answer
