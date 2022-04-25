@@ -31,3 +31,17 @@ y = int(input())
 z = int(input())
 a = [x<y<z]
 print(bool(a))
+
+
+
+
+
+
+output:
+/Users/pharasim/PycharmProjects/pythonProject/venv/bin/python /Users/pharasim/PycharmProjects/pythonProject/main.py
+7790765547678990
+7790765557679990
+7790765557778900
+True
+
+Process finished with exit code 0
